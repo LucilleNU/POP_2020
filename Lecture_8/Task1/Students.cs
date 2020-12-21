@@ -1,10 +1,16 @@
 ﻿using System;
 namespace Lecture_8.Task1
 {
-    public class Students
+    public class Student : Person
     {
-        public Students()
+        public void GoToClasses()
         {
+            Console.WriteLine("I’m going to class.");
+        }
+
+        public void ShowAge()
+        {
+            Console.WriteLine($"My age is {age} years old");
         }
     }
 }

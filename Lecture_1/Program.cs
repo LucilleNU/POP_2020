@@ -37,7 +37,7 @@ namespace Lecture_1 {
             Console.WriteLine("---------");
 
             Console.Write(" please enter side A: ");
-            int sideA = int.Parse(Console.ReadLine();
+            int sideA = int.Parse(Console.ReadLine());
 
 
             Console.Write(" please enter side B: ");
@@ -45,7 +45,7 @@ namespace Lecture_1 {
 
             Console.WriteLine("Area = " +sideA * sideB);
 
-            Console.WriteLine("Perimeter = " + 2 * (sideA + sideB);
+            Console.WriteLine("Perimeter = " + 2 * (sideA + sideB));
 
             Console.ReadKey();
             Console.Clear();
@@ -55,22 +55,22 @@ namespace Lecture_1 {
             Console.WriteLine("---------");
 
             Console.Write(" please enter side A: ");
-            int sideA = int.Parse(Console.ReadLine();
+            sideA = int.Parse(Console.ReadLine());
 
 
             Console.Write(" please enter side B: ");
-            int sideB = int.Parse(Console.ReadLine());
+            sideB = int.Parse(Console.ReadLine());
 
             Console.Write(" please enter side B: ");
             int sideC = int.Parse(Console.ReadLine());
 
             Console.Write(" please enter height: ");
-            int height = int.Parse(Console.ReadLine();
+            int height = int.Parse(Console.ReadLine());
 
 
             Console.WriteLine("Area = " + sideA * height);
 
-            Console.WriteLine("Perimeter =" + (sideA + sideB + sideC);
+            Console.WriteLine("Perimeter =" + (sideA + sideB + sideC));
 
             Console.ReadKey();
 
@@ -97,7 +97,7 @@ namespace Lecture_1 {
         private static void Task4_FutureBDay()
         {
             Console.Write(" Current age: ");
-            int currentAge = int.Parse(Console.ReadLine();
+            int currentAge = int.Parse(Console.ReadLine());
 
 
             Console.Write(" Future age: ");
@@ -107,7 +107,7 @@ namespace Lecture_1 {
             int bdayMonth = int.Parse(Console.ReadLine());
 
             Console.Write(" BDay day: ");
-            int bdayDay = int.Parse(Console.ReadLine();
+            int bdayDay = int.Parse(Console.ReadLine());
 
             int ageDifference = futureAge - currentAge;
             int futureYear = DateTime.Now.Year + ageDifference;

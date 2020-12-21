@@ -9,7 +9,7 @@ namespace Lecture_4
             //StarTriangle();
             //Diamond();
             HW_1();
-            //HW_2();
+            HW_2();
 
         }
         private static void StarTriangle() 

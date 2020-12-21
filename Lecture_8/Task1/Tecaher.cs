@@ -1,10 +1,13 @@
 ﻿using System;
 namespace Lecture_8.Task1
 {
-    public class Tecaher
+    public class Teacher : Person
     {
-        public Tecaher()
+        private string subject;
+
+        public void Explain()
         {
+            Console.WriteLine("Explanation begins");
         }
     }
 }
